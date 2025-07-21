@@ -1,12 +1,12 @@
 class Solution {
-    public static int nSum(int n) {
+    public int sumOfFirstN(int n) {
         // code here
-        
-        int ans = 0;
-          for(int i=1;i<=n;i++)
-          {
-              ans=ans+i;
-          }
-        return ans;
+        int sum=0;
+        for(int i=0;i<=n;i++)
+        {
+            sum=sum+i;
+         
+        }
+          return sum;
     }
 }
